@@ -1,0 +1,21 @@
+# Virtual environment (never commit)
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Local env / secrets
+.env
+.env.*
+
+# Local experiments / scratch
+src/minimal_vqc_test.py
+
+# OS
+.DS_Store
+Thumbs.db
